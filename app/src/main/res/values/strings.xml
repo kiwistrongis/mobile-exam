@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">Store Finder</string>
+	<string name="label_message_waiting">Waiting for your location...</string>
+	<string name="label_message_loading">Select a default store</string>
+	<string name="label_message_select">Select a default store</string>
+	<string name="label_message_saved">Default store saved</string>
+	<string name="dist_default">Distance -1 km</string>
+	<string name="dist_format">Distance %0.1f km</string>
+	<string name="label_name_default">Unnamed Stroe</string>
+	<string name="label_addr1_default">Address Line 1</string>
+	<string name="label_addr2_default">Address Line 2</string>
+	<string name="label_addr3_default">Address Line 3</string>
+	<string name="none"></string>
+</resources>

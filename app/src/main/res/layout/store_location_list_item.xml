@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="ca.uoit.csci4100.assessments.finalexamstarter.MainActivity">
+
+	<TextView
+		android:id="@+id/label_name"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:textStyle="bold"
+		android:text="@string/label_name_default"/>
+
+	<Space
+		android:layout_height="5dp"/>
+
+	<TextView
+		android:id="@+id/label_addr1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="@string/label_addr1_default"/>
+
+	<TextView
+		android:id="@+id/label_addr2"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="@string/label_addr2_default"/>
+
+	<TextView
+		android:id="@+id/label_addr3"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="@string/label_addr3_default"/>
+
+	<Space
+		android:layout_height="5dp"/>
+
+	<TextView
+		android:id="@+id/label_distance"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="@string/dist_default"/>
+
+</RelativeLayout>
